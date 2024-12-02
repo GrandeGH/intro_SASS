@@ -3,7 +3,17 @@ header {
     color: white;
     background-color: $colorheaderfooter;
     padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
     & nav {
-        @include espace
+        @include espace;
+        gap: 35px;
+        font-size: 10px;
+        & a {
+            color: white;
+            text-decoration: none; 
+        }
     }
 }
