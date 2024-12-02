@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  color: royalblue;
+  background-color: rgb(221, 23, 224);
+}
+
+header {
+  color: white;
+  background-color: #38425e;
+  padding: 1px;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=app.css.map */
