@@ -32,6 +32,68 @@ header nav a {
 img {
   width: 100%;
   height: 250px;
+  margin-bottom: 0px;
+}
+
+section:first-of-type {
+  width: 100%;
+  height: 10rem;
+  font-size: 17px;
+  background-color: rgb(240, 240, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:first-of-type div {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+section:first-of-type .span1 {
+  background-color: #257fbf;
+  color: white;
+}
+section:first-of-type .span2 {
+  color: #257fbf;
+  font-weight: bold;
+}
+section:first-of-type .span3 {
+  font-weight: bold;
+  color: grey;
+}
+
+section:nth-of-type(2) {
+  width: 70%;
+  height: 100%;
+}
+section:nth-of-type(2) .section2_1 {
+  margin: 10px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-of-type(2) .icone {
+  width: 30px;
+  height: 30px;
+  background-color: #d6d6d6;
+  border-radius: 50px;
+  padding: 5px;
+}
+section:nth-of-type(2) .section2_2 {
+  margin: 10px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-of-type(2) .flatidesign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=app.css.map */
