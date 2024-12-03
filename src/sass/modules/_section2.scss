@@ -1,16 +1,27 @@
 section:nth-of-type(2) {
-    width: 70%;
+    width: 100%;
     height: 100%;
-    & .section2_1 {
-        margin: 10px;
-        gap: 20px;
-        @include espace;
+    @include espace;
+    margin-bottom: 10vh;
 
+    & .section2_1 {
+        width: 80%;
+        height: auto;
+        margin: 10px;
+        gap: 3%;
+        @include espace;
+    }
+    & .section2enfant {
+        @include espace;
+        flex-direction: column;
+        text-align: center;background-color: rgb(216, 216, 216);
+        padding: 10px;
+        border-radius: 10px;
     }
     .icone {
         width: 30px;
         height: 30px;
-        background-color: rgba($color: #d6d6d6, $alpha: 1.0);
+        background-color: rgba($color: #eaeaea, $alpha: 1.0);
         border-radius: 50px;
         padding: 5px;
     }

@@ -8,6 +8,10 @@ h1 {
   background-color: rgb(221, 23, 224);
 }
 
+section {
+  margin-bottom: 20px;
+}
+
 header {
   color: white;
   background-color: #383e4e;
@@ -32,7 +36,6 @@ header nav a {
 img {
   width: 100%;
   height: 250px;
-  margin-bottom: 0px;
 }
 
 section:first-of-type {
@@ -66,20 +69,36 @@ section:first-of-type .span3 {
 }
 
 section:nth-of-type(2) {
-  width: 70%;
+  width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
 }
 section:nth-of-type(2) .section2_1 {
+  width: 80%;
+  height: auto;
   margin: 10px;
-  gap: 20px;
+  gap: 3%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+section:nth-of-type(2) .section2enfant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  border-radius: 10px;
+}
 section:nth-of-type(2) .icone {
   width: 30px;
   height: 30px;
-  background-color: #d6d6d6;
+  background-color: #eaeaea;
   border-radius: 50px;
   padding: 5px;
 }
@@ -94,6 +113,30 @@ section:nth-of-type(2) .flatidesign {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+section:nth-of-type(3) {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+section:nth-of-type(3) .ligne2 {
+  width: 80%;
+  gap: 5%;
+}
+section:nth-of-type(3) .recent_work {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+section:nth-of-type(3) div {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=app.css.map */

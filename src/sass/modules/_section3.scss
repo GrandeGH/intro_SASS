@@ -1,0 +1,21 @@
+section:nth-of-type(3) {
+    width: 100%;
+    height: auto;
+    @include espace;
+    flex-direction: row;
+    & .ligne2 {
+        width: 80%;
+        gap: 5%;
+    }
+    & .recent_work {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
+    & div {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+} 
